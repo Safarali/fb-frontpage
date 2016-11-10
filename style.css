@@ -1,0 +1,204 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    font-smoothing:antialiased;
+}
+
+.container {
+    min-width: 1200px;
+
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+h2 {
+    font-family: 'Montserrat', arial, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Montserrat', arial, sans-serif;
+    font-size: 34px;
+}
+
+
+li, p {
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+
+header {
+    background-color: #405D9B;
+    color: #fff;
+    padding: 20px 0 5px;
+    height: 70px;
+}
+
+.logo {
+    font-family: 'Open-Sans', arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    float: left;
+}
+
+/* Login form */
+.login-form-wrapper {
+    float: right;
+    font-size: 12px;
+    font-family: 'Poppins', arial, sans-serif;
+    position: relative;
+    top: -15px;
+}
+
+.login-column {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.login-column input[type="email"],
+.login-column input[type="password"]{
+    padding: 4px 5px;
+    border: 1px solid #000000;
+}
+
+.login-column a {
+    text-decoration: none;
+    color: #bdc3c7;
+    display: block;
+    font-size: 12px;
+}
+
+.submit-btn-column{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 18px;
+}
+#submit {
+    background-color: #3c5faa;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid #34495e;
+    font-size: 12px;
+}
+
+#submit:hover {
+    background-color: #405D9B;
+}
+
+
+/* Main content Section */
+section {
+    background-color: #EDF0F5;
+    padding: 40px 0;
+
+}
+.facebook-info {
+    display: inline-block;
+    width: 520px;
+}
+
+.facebook-info ul {
+    margin-top: 40px;
+    list-style-type: none;
+}
+.facebook-info span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.facebook-info li {
+    line-height: 60px;
+    font-size: 14px;
+}
+
+.facebook-info li img {
+    position: relative;
+    top: 20px;
+    margin-right: 30px;
+}
+
+/* Sign up form */
+
+.signup-form {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    margin-left: 60px;
+    padding: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form p {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+.first_and_last_name {
+    outline: none;
+    display: inline-block;
+    width: 180px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:hover {
+    border: 1px solid #3c5faa;
+}
+
+.whole_line{
+    display: block;
+    outline: none;
+    width: 381px;
+    border-radius: 5px;
+    padding:8px 8px;
+    border: 1px solid #BDC7D8;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gender_name {
+    font-family: 'Poppins', sans-serif;
+}
+
+.terms {
+    font-size: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.terms span {
+    color:#3c5faa;
+}
+
+#submit_btn {
+    background-color: #609E4E;
+    padding: 8px 55px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', arial, sans-serif;
+}
